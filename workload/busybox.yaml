@@ -4,7 +4,6 @@ metadata:
   name: demo-busybox
 spec:
   template:
-    # This is the pod template
     spec:
       containers:
       - name: demo-busybox

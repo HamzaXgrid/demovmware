@@ -8,5 +8,5 @@ spec:
       containers:
       - name: demo-busybox
         image: busybox:1.28
-        command: ['sh', '-c', 'echo "Hello, Kubernetes!" && sleep 3600']
+        command: ['sh', '-c', 'echo "Hello, Kubernetes!" && sleep 14800']
       restartPolicy: OnFailure
